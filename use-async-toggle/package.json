@@ -41,5 +41,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.1"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
