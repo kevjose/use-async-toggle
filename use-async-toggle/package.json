@@ -1,0 +1,45 @@
+{
+  "name": "use-async-toggle",
+  "version": "1.0.0",
+  "description": "A React toggle hook with support for async actions",
+  "author": {
+    "name": "Kevin Jose",
+    "email": "kevin.josev@gmail.com",
+    "url": "https://twitter.com/kevjose91"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "async-toggle",
+    "react-async-toggle",
+    "react-async-hook"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "example": "cd example && yarn install && yarn package",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevjose/use-async-toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/kevjose/use-async-toggle/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.1"
+  }
+}
