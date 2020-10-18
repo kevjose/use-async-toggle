@@ -1,6 +1,6 @@
 {
-  "name": "@kevjose/use-async-toggle",
-  "version": "1.0.0",
+  "name": "use-async-toggle",
+  "version": "1.0.3",
   "description": "A React toggle hook with support for async actions",
   "author": {
     "name": "Kevin Jose",
